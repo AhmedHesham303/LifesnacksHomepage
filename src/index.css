@@ -18,6 +18,7 @@
   --color-hover-background: #292a58;
   --color-main-background: #fefdfc;
   --color-secondary-background: #4e8d40;
+  --animate-dissolve: "dissolve 0.3s ease-out forwards";
 }
 
 @utility card-hover {
@@ -37,6 +38,10 @@
 
 @utility cross {
   @apply bg-secondary-background p-2.5 rounded-full right-4 top-4 absolute w-10 h-10 hover:cursor-pointer;
+}
+
+@utility brand {
+  @apply w-75 h-104 rounded-4xl flex items-center justify-center;
 }
 
 /* 
