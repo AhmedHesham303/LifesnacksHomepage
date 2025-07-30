@@ -15,12 +15,13 @@
 
 @theme {
   --color-primary: #130f28;
+  --color-hover-background: #292a58;
   --color-main-background: #fefdfc;
   --color-secondary-background: #4e8d40;
 }
 
 .btn {
-  @apply px-8 py-2 rounded-xl border-primary text-primary border-1 hover:cursor-pointer hover:bg-primary hover:text-main-background transition-colors duration-300;
+  @apply px-8 py-2 rounded-lg border-primary text-primary border-1 hover:cursor-pointer hover:bg-hover-background hover:text-white transition-colors duration-300;
 }
 .green-btn {
   @apply bg-secondary-background text-main-background;
