@@ -33,7 +33,7 @@ const navItems = [
 function Nav() {
   console.log("Nav component loaded");
   return (
-    <nav className="bg-Foundation-Grey w-full h-22 flex items-center justify-center px-20 py-6 gap-16 text-Foundation-Violet text-sm ">
+    <nav className="bg-main-background w-full h-22 flex items-center justify-center px-20 py-6 gap-16 text-primary text-sm ">
       <img src="../assets/logo.png" alt="Logo image" />
       <div className="flex gap-4 items-center ">
         {navItems.map((navItem, key) =>

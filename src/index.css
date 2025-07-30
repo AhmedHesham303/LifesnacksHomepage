@@ -15,15 +15,15 @@
 
 @theme {
   --color-primary: #130f28;
-  --color-Foundation-Grey: #fefdfc;
-  --color-Foundation-Green: #4e8d40;
+  --color-main-background: #fefdfc;
+  --color-secondary-background: #4e8d40;
 }
 
 .btn {
   @apply px-10 py-3 rounded-lg border-primary text-primary border-1 hover:cursor-pointer;
 }
 .green-btn {
-  @apply bg-Foundation-Green text-white;
+  @apply bg-secondary-background text-white;
 }
 
 /* 
