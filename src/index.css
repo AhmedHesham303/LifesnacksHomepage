@@ -20,7 +20,7 @@
 }
 
 .btn {
-  @apply px-10 py-3 rounded-xl border-primary text-primary border-1 hover:cursor-pointer hover:bg-primary hover:text-main-background transition-colors duration-300;
+  @apply px-8 py-2 rounded-xl border-primary text-primary border-1 hover:cursor-pointer hover:bg-primary hover:text-main-background transition-colors duration-300;
 }
 .green-btn {
   @apply bg-secondary-background text-main-background;

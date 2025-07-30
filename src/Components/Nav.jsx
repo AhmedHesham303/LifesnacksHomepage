@@ -33,7 +33,7 @@ const navItems = [
 function Nav() {
   console.log("Nav component loaded");
   return (
-    <nav className="bg-main-background w-full h-22 flex items-center justify-center px-20 py-6 gap-16 text-primary text-sm ">
+    <nav className="bg-main-background w-full h-18 flex items-center justify-center px-20 py-6 gap-16 text-primary text-xs ">
       <img src="../assets/logo.png" alt="Logo image" />
       <div className="flex gap-4 items-center ">
         {navItems.map((navItem, key) =>
@@ -41,8 +41,8 @@ function Nav() {
             <img
               src="/public/assets/search-icon.png"
               alt="search-icon"
-              className="w-6
-              h-6 hover:cursor-pointer"
+              className="w-4
+              h-4 hover:cursor-pointer"
             />
           ) : (
             <div className="flex items-center gap-1">
@@ -55,8 +55,8 @@ function Nav() {
                   <img
                     src="/public/assets/down-arrow.png"
                     alt="down-arrow-ixon"
-                    className="w-6
-              h-6 "
+                    className="w-4
+              h-4 "
                   />
                 </a>
               )}
