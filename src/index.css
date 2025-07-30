@@ -32,7 +32,7 @@
 }
 
 @utility search-modal {
-  @apply fixed top-1/2 left-1/2 -translate-1/2 w-250 h-60 z-99 bg-yellow-400 p-14 rounded-2xl;
+  @apply invisible fixed top-1/2 left-1/2 -translate-1/2 w-250 h-60 z-99 bg-yellow-400 p-14 rounded-2xl;
 }
 
 @utility cross {
