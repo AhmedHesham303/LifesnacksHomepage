@@ -5,8 +5,8 @@
   body {
     margin: 0;
     padding: 0;
-    background: red;
     font-family: "Montserrat";
+    position: relative;
   }
   html {
     box-sizing: border-box;
@@ -20,11 +20,23 @@
   --color-secondary-background: #4e8d40;
 }
 
-.btn {
+@utility card-hover {
+  @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg;
+}
+@utility btn {
   @apply px-8 py-2 rounded-lg border-primary text-primary border-1 hover:cursor-pointer hover:bg-hover-background hover:text-white transition-colors duration-300;
 }
-.green-btn {
+
+@utility green-btn {
   @apply bg-secondary-background text-main-background;
+}
+
+@utility search-modal {
+  @apply fixed top-1/2 left-1/2 -translate-1/2 w-250 h-60 z-99 bg-yellow-400 p-14 rounded-2xl;
+}
+
+@utility cross {
+  @apply bg-secondary-background p-2.5 rounded-full right-4 top-4 absolute w-10 h-10 hover:cursor-pointer;
 }
 
 /* 
