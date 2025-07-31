@@ -7,12 +7,12 @@ function TestimonialsList() {
       <h2 className="text-6xl text-center mb-12 text-white">
         What our customers say ?
       </h2>
-      <ul className="flex justify-center gap-4">
+      <ul className="flex justify-center gap-4 items-center">
         <li>
           <Testimonial />
         </li>
         <li>
-          <Testimonial />
+          <Testimonial isSelected={true} />
         </li>
         <li>
           <Testimonial />

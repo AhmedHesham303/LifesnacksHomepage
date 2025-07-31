@@ -1,7 +1,7 @@
 import React from "react";
-function Testimonial() {
+function Testimonial({ isSelected }) {
   return (
-    <div className="testimonial">
+    <div className={`${isSelected ? "selected-testimonial" : ""} testimonial`}>
       <img src="/public/assets/testimonial1.svg" alt="client img" />
       <h2 className="text-xl">Rachel Johnston</h2>
       <h3 className="text-xs">Rachel69@hotmail.com</h3>

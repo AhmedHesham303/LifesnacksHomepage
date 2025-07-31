@@ -46,7 +46,10 @@
 }
 
 @utility testimonial {
-  @apply bg-white px-8 pt-8 pb-16 rounded-3xl flex flex-col items-center gap-4 w-80;
+  @apply bg-white px-8 pt-8 pb-16 rounded-3xl flex flex-col items-center gap-4 w-85 h-105 opacity-65;
+}
+@utility selected-testimonial {
+  @apply w-100 h-110 opacity-100;
 }
 
 /* 
