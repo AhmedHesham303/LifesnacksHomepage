@@ -45,6 +45,10 @@
   @apply w-75 h-104 rounded-4xl flex items-center justify-center;
 }
 
+@utility testimonial {
+  @apply bg-white px-8 pt-8 pb-16 rounded-3xl flex flex-col items-center gap-4 w-80;
+}
+
 /* 
 
 

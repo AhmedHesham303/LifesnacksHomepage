@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Hero from "./Hero";
 import BrandsList from "./BrandsList";
 import OurStory from "./OurStory";
+import TestimonialsList from "./TestimonialsList";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <BrandsList />
       <OurStory />
+      <TestimonialsList />
     </>
   );
 }
