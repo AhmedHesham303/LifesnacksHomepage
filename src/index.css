@@ -52,6 +52,13 @@
   @apply w-100 h-110 opacity-100;
 }
 
+@utility left-arrow {
+  @apply absolute top-4/7 left-6 hover:cursor-pointer;
+}
+@utility right-arrow {
+  @apply absolute top-4/7 right-6 hover:cursor-pointer;
+}
+
 /* 
 
 

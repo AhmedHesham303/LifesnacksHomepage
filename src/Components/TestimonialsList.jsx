@@ -21,12 +21,12 @@ function TestimonialsList() {
       <img
         src="/public/assets/left-arrow.svg"
         alt="left arrow"
-        className="absolute top-4/7 left-6 hover:cursor-pointer"
+        className="left-arrow"
       />
       <img
         src="/public/assets/right-arrow.svg"
         alt="right arrow"
-        className="absolute top-4/7 right-6 hover:cursor-pointer"
+        className="right-arrow"
       />
     </section>
   );

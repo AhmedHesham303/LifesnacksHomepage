@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import BrandsList from "./BrandsList";
 import OurStory from "./OurStory";
 import TestimonialsList from "./TestimonialsList";
+import PartnersList from "./PartnersList";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <BrandsList />
       <OurStory />
       <TestimonialsList />
+      <PartnersList />
     </>
   );
 }
