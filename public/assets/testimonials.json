@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Rachel Johnston",
+    "email": "rachel69@hotmail.com",
+    "image": "/assets/rachel.jpg",
+    "rating": 5,
+    "testimonial": "Lorem ipsum dolor sit amet consectetur. Bibendum tortor nisl est nibh adipiscing consectetur adipiscing velit consectetur. Eu vel leo faucibus a gravida gravida amet. Eu fusce faucibus vitae viverra libero."
+  },
+  {
+    "name": "Liam Carter",
+    "email": "liamcarter93@gmail.com",
+    "image": "/assets/liam.jpg",
+    "rating": 4,
+    "testimonial": "Working with this team has been an absolute pleasure. Their attention to detail and commitment to excellence is unmatched."
+  },
+  {
+    "name": "Sophia Patel",
+    "email": "sophia.patel@outlook.com",
+    "image": "/assets/sophia.jpg",
+    "rating": 5,
+    "testimonial": "I’m so impressed with the professionalism and quality of service. Would definitely recommend them!"
+  },
+  {
+    "name": "David Kim",
+    "email": "davidkim21@yahoo.com",
+    "image": "/assets/david.jpg",
+    "rating": 3,
+    "testimonial": "The service was good but took longer than expected. Overall, a decent experience."
+  },
+  {
+    "name": "Emily Chen",
+    "email": "emilychen87@gmail.com",
+    "image": "/assets/emily.jpg",
+    "rating": 4,
+    "testimonial": "Very happy with the final product. Communication could be improved a little, but great team!"
+  },
+  {
+    "name": "Mohamed Elsharawy",
+    "email": "mohamed.elsharawy@mail.com",
+    "image": "/assets/mohamed.jpg",
+    "rating": 5,
+    "testimonial": "Exceptional quality and amazing customer service. I’ll definitely be coming back."
+  },
+  {
+    "name": "Ana Rodríguez",
+    "email": "ana.rodriguez@example.com",
+    "image": "/assets/ana.jpg",
+    "rating": 5,
+    "testimonial": "Una experiencia increíble. Recomiendo este servicio con los ojos cerrados."
+  },
+  {
+    "name": "James O’Connor",
+    "email": "james.oconnor@domain.com",
+    "image": "/assets/james.jpg",
+    "rating": 4,
+    "testimonial": "Solid work and very efficient. Met my expectations and then some."
+  },
+  {
+    "name": "Fatima Noor",
+    "email": "fatima.noor@live.com",
+    "image": "/assets/fatima.jpg",
+    "rating": 5,
+    "testimonial": "Absolutely loved how everything turned out. Thank you for the amazing work!"
+  },
+  {
+    "name": "Lucas Müller",
+    "email": "lucas.mueller@web.de",
+    "image": "/assets/lucas.jpg",
+    "rating": 4,
+    "testimonial": "Gut gemacht! Sehr professionell und zuverlässig. Ich bin zufrieden mit dem Ergebnis."
+  }
+]
