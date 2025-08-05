@@ -9,7 +9,7 @@ function Hero() {
     const handleEndTime = (e) => {
       if (e.target.currentTime >= endTime) {
         e.target.currentTime = 0;
-        e.target.play(); // continue playing from the beginning
+        e.target.play();
       }
     };
 
@@ -26,15 +26,25 @@ function Hero() {
   }, []);
 
   return (
-    <video
-      ref={videoRef}
-      src="/assets/Hero.mp4"
-      type="video/mp4"
-      className="z-10 w-full h-[calc(100vh-4.5rem)] object-cover"
-      autoPlay
-      muted
-      playsInline
-    />
+    <div className="relative z-10 flex h-[calc(100vh-4.5rem)]  items-center">
+      <div className=" container mx-auto">
+        <p className="text-5xl max-w-[35rem] font-medium  text-white">
+          At Our Core, We Are a Team Of Passionate Individuals Dedicated To
+          Providing Top-Quality Products by Using Superior Ingredients.
+        </p>
+        <button className="btn green-btn mt-12 border-white">Our Story</button>
+      </div>
+
+      <video
+        ref={videoRef}
+        src="/assets/Hero.mp4"
+        type="video/mp4"
+        className="z-[-1] w-full inset-0 h-full absolute   object-cover"
+        autoPlay
+        muted
+        playsInline
+      />
+    </div>
   );
 }
 

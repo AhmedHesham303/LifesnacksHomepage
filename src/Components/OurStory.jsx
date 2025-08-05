@@ -18,7 +18,7 @@ function OurStory() {
           nam nulla. Amet in neque neque malesuada amet in. Magna nulla turpis
           in molestie. Enim purus sit neque aenean lacus etiam sed.
         </p>
-        <button className="btn green-btn w-1/2">Learn more</button>
+        <button className="btn green-btn w-1/3">Learn more</button>
       </aside>
     </section>
   );
