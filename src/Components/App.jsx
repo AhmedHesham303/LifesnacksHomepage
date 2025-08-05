@@ -6,6 +6,7 @@ import BrandsList from "./BrandsList";
 import OurStory from "./OurStory";
 import TestimonialsList from "./TestimonialsList";
 import PartnersList from "./PartnersList";
+import Footer from "./Footer";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <OurStory />
       <TestimonialsList />
       <PartnersList />
+      <Footer />
     </>
   );
 }
