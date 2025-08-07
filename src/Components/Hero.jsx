@@ -29,7 +29,7 @@ function Hero() {
     <div className="relative z-10 flex h-[calc(100vh-4.5rem)]  items-center">
       <div className=" container mx-auto">
         <p className="text-5xl max-w-[35rem] font-medium  text-white">
-          At Our Core, We Are a Team Of Passionate Individuals Dedicated To
+          At Our Core, We Are A Team Of Passionate Individuals Dedicated To
           Providing Top-Quality Products by Using Superior Ingredients.
         </p>
         <button className="btn green-btn mt-12 border-white">Our Story</button>
